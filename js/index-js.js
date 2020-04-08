@@ -1,7 +1,7 @@
 
 
 window.onload = function () {
-    var url = "D:\homework/js/data.json"/*json文件url，本地的就写本地的位置，如果是服务器的就写服务器的路径*/
+    var url = "../homework/js/data.json"/*json文件url，本地的就写本地的位置，如果是服务器的就写服务器的路径*/
     var request = new XMLHttpRequest();
     request.open("get", url);/*设置请求方法与路径*/
     request.send(null);
