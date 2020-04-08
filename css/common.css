@@ -1,0 +1,32 @@
+
+body {
+	background-color: #2a6ed2;
+}
+
+.header {
+	margin-top: 34px;
+	border-radius:44px 36px 0 0;
+	height: 656px;
+	background-color: #fff;
+}
+
+.middle {
+	height: 32px;
+	background-color: #f8f8fa;
+}
+
+.footer {
+	/*height: 1216px;*/
+	background-color: #fff;
+}
+
+.index-banner {
+	position: relative;
+	margin: 0 auto;
+	border-radius: 18px;
+	top: 52px;
+	height: 348px;
+	width: 876px;
+	background-image: url(../images/index-banner.png);
+	background-size: cover;
+}
